@@ -3,7 +3,7 @@ import React from "react";
 const Item = ({ item, onItemChange }) => {
   return (
     <React.Fragment>
-      <div className="container">
+      <div className="container" style={{marginLeft: 0}}>
         <div className="row">
         <h5>Détails</h5>
         </div>
